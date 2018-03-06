@@ -7,6 +7,7 @@ module.exports = {
     filename: "./index.js",
     libraryTarget: "umd"
   },
+  devtool: 'source-map',
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
     extensions: [".ts", ".tsx", ".js"]
@@ -24,6 +25,6 @@ module.exports = {
   ],
   devServer: {
     contentBase: './dist',
-    open: false
+    open: false,
   },
 };
