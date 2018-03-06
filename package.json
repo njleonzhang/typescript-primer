@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "",
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --open"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "ts-loader": "^4.0.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
