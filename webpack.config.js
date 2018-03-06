@@ -23,6 +23,7 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    open: false
   },
 };
