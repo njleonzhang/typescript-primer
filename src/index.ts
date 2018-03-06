@@ -10,6 +10,8 @@ var leon = {
 
 callPeople(leon)
 
+console.log(cons)
+
 try {
   console.log(Space.x, Space.y, Space.z, frameworks)
 } catch (e) {
