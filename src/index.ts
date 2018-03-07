@@ -3,6 +3,7 @@ import { cons } from './j' // 引用js
 import * as frameworks from './frameworks/index'
 import { React, Vue } from './frameworks/index'
 import { DataTablesServer } from 'vue-data-tables' // 为vue-data-tables写了一个d.ts声明文件，否则此处无法导入
+import { TypePrimer, TypePrimer1, Animal } from './module'
 
 var leon = {
   firstName: 'zhang'
@@ -22,6 +23,10 @@ try {
 
 new React()
 new Vue()
+
+new Animal()
+new TypePrimer.Duck()
+new TypePrimer1.Tiger()
 
 console.log(DataTablesServer)
 
